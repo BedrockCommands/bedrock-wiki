@@ -5,58 +5,58 @@ import{_ as p}from"./chunks/6.07d6a5aa.js";import{_ as m,c as u,a as n,w as a,e 
 <span class="line"><span style="color:#C3E88D;">/playanimation @e [type= armor_stand, name=Grumm] animation.fireworks_rocket.move null 0 &quot;0&quot; align.full_block</span></span>
 <span class="line"><span style="color:#C3E88D;">/execute as @e [type= armor_stand, name=Grumm] at @s run tp ~~~</span></span>
 <span class="line"></span></code></pre><div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p><img src="`+p+'" alt="commandBlockChain6"></p><h3 id="purpose-of-each-command" tabindex="-1">Purpose Of Each Command <a class="header-anchor" href="#purpose-of-each-command" aria-hidden="true">#</a></h3><ol><li>Hides the armour stand body.</li><li>Automatically sets the armour stand pose to 7 for arms alignment. Skip this command you prefer to do it manually.</li><li><strong>Required command</strong>. Increases size to present as mini-block.</li><li><em>Optional command.</em> Increases size to present as full-block.</li><li><em>Optional command.</em> Aligns the full-block size MBE properly. <ul><li>Skip 4 &amp; 5 if you do not need full-block size MBE.</li></ul></li><li>Locks in place to prevent fall in case block underneath is removed.</li></ol><h2 id="rotations-alignments" tabindex="-1">Rotations &amp; Alignments <a class="header-anchor" href="#rotations-alignments" aria-hidden="true">#</a></h2><blockquote><p>Note: These rotation commands are to be executed only once through a command block.</p></blockquote>',6),E=s("div",{class:"language-yaml line-numbers-mode"},[s("button",{title:"Copy Code",class:"copy"}),s("span",{class:"lang"},"yaml"),s("pre",{class:"shiki"},[s("code",null,[s("span",{class:"line"},[s("span",{style:{color:"#676E95"}},"# Face North")]),e(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"tp @e [type=armor_stand, name=Grumm, c=1] ~-1.1245 ~0.2260 ~-0.097 ~81")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"/tp @e [type=armor_stand, name=Grumm, c=1] ~-1.1245 ~0.2260 ~-0.097 ~81")]),e(`
 `),s("span",{class:"line"}),e(`
 `),s("span",{class:"line"},[s("span",{style:{color:"#676E95"}},"# Face South")]),e(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"tp @e [type=armor_stand, name=Grumm, c=1] ~1.1245 ~0.2260 ~0.097 ~260")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"/tp @e [type=armor_stand, name=Grumm, c=1] ~1.1245 ~0.2260 ~0.097 ~260")]),e(`
 `),s("span",{class:"line"}),e(`
 `),s("span",{class:"line"},[s("span",{style:{color:"#676E95"}},"# Face East")]),e(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"tp @e [type=armor_stand, name=Grumm, c=1] ~0.097 ~0.2260 ~-1.1245 ~171")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"/tp @e [type=armor_stand, name=Grumm, c=1] ~0.097 ~0.2260 ~-1.1245 ~171")]),e(`
 `),s("span",{class:"line"}),e(`
 `),s("span",{class:"line"},[s("span",{style:{color:"#676E95"}},"# Face West")]),e(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"tp @e [type=armor_stand, name=Grumm, c=1] ~-0.097 ~0.2260 ~1.1245 ~350")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"/tp @e [type=armor_stand, name=Grumm, c=1] ~-0.097 ~0.2260 ~1.1245 ~350")]),e(`
 `),s("span",{class:"line"})])]),s("div",{class:"line-numbers-wrapper"},[s("span",{class:"line-number"},"1"),s("br"),s("span",{class:"line-number"},"2"),s("br"),s("span",{class:"line-number"},"3"),s("br"),s("span",{class:"line-number"},"4"),s("br"),s("span",{class:"line-number"},"5"),s("br"),s("span",{class:"line-number"},"6"),s("br"),s("span",{class:"line-number"},"7"),s("br"),s("span",{class:"line-number"},"8"),s("br"),s("span",{class:"line-number"},"9"),s("br"),s("span",{class:"line-number"},"10"),s("br"),s("span",{class:"line-number"},"11"),s("br")])],-1),g=s("div",{class:"language-yaml line-numbers-mode"},[s("button",{title:"Copy Code",class:"copy"}),s("span",{class:"lang"},"yaml"),s("pre",{class:"shiki"},[s("code",null,[s("span",{class:"line"},[s("span",{style:{color:"#676E95"}},"# Face North")]),e(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"tp @e [type=armor_stand, name=Grumm, c=1] ~-0.417~-0.5 ~-0.035 ~81")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"/tp @e [type=armor_stand, name=Grumm, c=1] ~-0.417~-0.5 ~-0.035 ~81")]),e(`
 `),s("span",{class:"line"}),e(`
 `),s("span",{class:"line"},[s("span",{style:{color:"#676E95"}},"# Face South")]),e(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"tp @e [type=armor_stand, name=Grumm, c=1] ~0.417 ~-0.5 ~0.035 ~260")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"/tp @e [type=armor_stand, name=Grumm, c=1] ~0.417 ~-0.5 ~0.035 ~260")]),e(`
 `),s("span",{class:"line"}),e(`
 `),s("span",{class:"line"},[s("span",{style:{color:"#676E95"}},"# Face East")]),e(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"tp @e [type=armor_stand, name=Grumm, c=1] ~0.035 ~-0.5 ~-0.417 ~171")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"/tp @e [type=armor_stand, name=Grumm, c=1] ~0.035 ~-0.5 ~-0.417 ~171")]),e(`
 `),s("span",{class:"line"}),e(`
 `),s("span",{class:"line"},[s("span",{style:{color:"#676E95"}},"# Face West")]),e(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"tp @e [type=armor_stand, name=Grumm, c=1] ~-0.035 ~-0.5 ~0.417 ~350")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"/tp @e [type=armor_stand, name=Grumm, c=1] ~-0.035 ~-0.5 ~0.417 ~350")]),e(`
 `),s("span",{class:"line"})])]),s("div",{class:"line-numbers-wrapper"},[s("span",{class:"line-number"},"1"),s("br"),s("span",{class:"line-number"},"2"),s("br"),s("span",{class:"line-number"},"3"),s("br"),s("span",{class:"line-number"},"4"),s("br"),s("span",{class:"line-number"},"5"),s("br"),s("span",{class:"line-number"},"6"),s("br"),s("span",{class:"line-number"},"7"),s("br"),s("span",{class:"line-number"},"8"),s("br"),s("span",{class:"line-number"},"9"),s("br"),s("span",{class:"line-number"},"10"),s("br"),s("span",{class:"line-number"},"11"),s("br")])],-1),k=s("div",{class:"language-yaml line-numbers-mode"},[s("button",{title:"Copy Code",class:"copy"}),s("span",{class:"lang"},"yaml"),s("pre",{class:"shiki"},[s("code",null,[s("span",{class:"line"},[s("span",{style:{color:"#676E95"}},"# Face North")]),e(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"tp @e [type=armor_stand, name=Grumm, c=1] ~-0.097 ~0.2325 ~1.1245 ~350")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"/tp @e [type=armor_stand, name=Grumm, c=1] ~-0.097 ~0.2325 ~1.1245 ~350")]),e(`
 `),s("span",{class:"line"}),e(`
 `),s("span",{class:"line"},[s("span",{style:{color:"#676E95"}},"# Face South")]),e(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"tp @e [type=armor_stand, name=Grumm, c=1] ~0.097 ~0.2325 ~-1.1245 ~171")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"/tp @e [type=armor_stand, name=Grumm, c=1] ~0.097 ~0.2325 ~-1.1245 ~171")]),e(`
 `),s("span",{class:"line"}),e(`
 `),s("span",{class:"line"},[s("span",{style:{color:"#676E95"}},"# Face East")]),e(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"tp @e [type=armor_stand, name=Grumm, c=1] ~-1.1245 ~0.2325 ~-0.097 ~81")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"/tp @e [type=armor_stand, name=Grumm, c=1] ~-1.1245 ~0.2325 ~-0.097 ~81")]),e(`
 `),s("span",{class:"line"}),e(`
 `),s("span",{class:"line"},[s("span",{style:{color:"#676E95"}},"# Face West")]),e(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"tp @e [type=armor_stand, name=Grumm, c=1] ~1.1245 ~0.2325 ~0.097 ~260")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"/tp @e [type=armor_stand, name=Grumm, c=1] ~1.1245 ~0.2325 ~0.097 ~260")]),e(`
 `),s("span",{class:"line"})])]),s("div",{class:"line-numbers-wrapper"},[s("span",{class:"line-number"},"1"),s("br"),s("span",{class:"line-number"},"2"),s("br"),s("span",{class:"line-number"},"3"),s("br"),s("span",{class:"line-number"},"4"),s("br"),s("span",{class:"line-number"},"5"),s("br"),s("span",{class:"line-number"},"6"),s("br"),s("span",{class:"line-number"},"7"),s("br"),s("span",{class:"line-number"},"8"),s("br"),s("span",{class:"line-number"},"9"),s("br"),s("span",{class:"line-number"},"10"),s("br"),s("span",{class:"line-number"},"11"),s("br")])],-1),C=s("div",{class:"language-yaml line-numbers-mode"},[s("button",{title:"Copy Code",class:"copy"}),s("span",{class:"lang"},"yaml"),s("pre",{class:"shiki"},[s("code",null,[s("span",{class:"line"},[s("span",{style:{color:"#676E95"}},"# Face North")]),e(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"tp @e [type=armor_stand, name=Grumm, c=1] ~-0.097 ~0.2325 ~1.1245 ~350")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"/tp @e [type=armor_stand, name=Grumm, c=1] ~-0.097 ~0.2325 ~1.1245 ~350")]),e(`
 `),s("span",{class:"line"}),e(`
 `),s("span",{class:"line"},[s("span",{style:{color:"#676E95"}},"# Face South")]),e(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"tp @e [type=armor_stand, name=Grumm, c=1] ~0.097 ~0.2325 ~-1.1245 ~171")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"/tp @e [type=armor_stand, name=Grumm, c=1] ~0.097 ~0.2325 ~-1.1245 ~171")]),e(`
 `),s("span",{class:"line"}),e(`
 `),s("span",{class:"line"},[s("span",{style:{color:"#676E95"}},"# Face East")]),e(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"tp @e [type=armor_stand, name=Grumm, c=1] ~-1.1245 ~0.2325 ~-0.097 ~81")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"/tp @e [type=armor_stand, name=Grumm, c=1] ~-1.1245 ~0.2325 ~-0.097 ~81")]),e(`
 `),s("span",{class:"line"}),e(`
 `),s("span",{class:"line"},[s("span",{style:{color:"#676E95"}},"# Face West")]),e(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"tp @e [type=armor_stand, name=Grumm, c=1] ~1.1245 ~0.2325 ~0.097 ~260")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"/tp @e [type=armor_stand, name=Grumm, c=1] ~1.1245 ~0.2325 ~0.097 ~260")]),e(`
 `),s("span",{class:"line"})])]),s("div",{class:"line-numbers-wrapper"},[s("span",{class:"line-number"},"1"),s("br"),s("span",{class:"line-number"},"2"),s("br"),s("span",{class:"line-number"},"3"),s("br"),s("span",{class:"line-number"},"4"),s("br"),s("span",{class:"line-number"},"5"),s("br"),s("span",{class:"line-number"},"6"),s("br"),s("span",{class:"line-number"},"7"),s("br"),s("span",{class:"line-number"},"8"),s("br"),s("span",{class:"line-number"},"9"),s("br"),s("span",{class:"line-number"},"10"),s("br"),s("span",{class:"line-number"},"11"),s("br")])],-1),f=s("div",{class:"language-yaml line-numbers-mode"},[s("button",{title:"Copy Code",class:"copy"}),s("span",{class:"lang"},"yaml"),s("pre",{class:"shiki"},[s("code",null,[s("span",{class:"line"},[s("span",{style:{color:"#676E95"}},"# Face North")]),e(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"tp @e [type=armor_stand, name=Grumm, c=1] ~-1.1245 ~0.484 ~-0.097 ~81")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"/tp @e [type=armor_stand, name=Grumm, c=1] ~-1.1245 ~0.484 ~-0.097 ~81")]),e(`
 `),s("span",{class:"line"}),e(`
 `),s("span",{class:"line"},[s("span",{style:{color:"#676E95"}},"# Face South")]),e(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"tp @e [type=armor_stand, name=Grumm, c=1] ~1.1245 ~0.484 ~0.097 ~260")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"/tp @e [type=armor_stand, name=Grumm, c=1] ~1.1245 ~0.484 ~0.097 ~260")]),e(`
 `),s("span",{class:"line"}),e(`
 `),s("span",{class:"line"},[s("span",{style:{color:"#676E95"}},"# Face East")]),e(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"tp @e [type=armor_stand, name=Grumm, c=1] ~0.097 ~0.484 ~-1.1245 ~171")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"/tp @e [type=armor_stand, name=Grumm, c=1] ~0.097 ~0.484 ~-1.1245 ~171")]),e(`
 `),s("span",{class:"line"}),e(`
 `),s("span",{class:"line"},[s("span",{style:{color:"#676E95"}},"# Face West")]),e(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"tp @e [type=armor_stand, name=Grumm, c=1] ~-0.097 ~0.484 ~1.1245 ~350")]),e(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#C3E88D"}},"/tp @e [type=armor_stand, name=Grumm, c=1] ~-0.097 ~0.484 ~1.1245 ~350")]),e(`
 `),s("span",{class:"line"})])]),s("div",{class:"line-numbers-wrapper"},[s("span",{class:"line-number"},"1"),s("br"),s("span",{class:"line-number"},"2"),s("br"),s("span",{class:"line-number"},"3"),s("br"),s("span",{class:"line-number"},"4"),s("br"),s("span",{class:"line-number"},"5"),s("br"),s("span",{class:"line-number"},"6"),s("br"),s("span",{class:"line-number"},"7"),s("br"),s("span",{class:"line-number"},"8"),s("br"),s("span",{class:"line-number"},"9"),s("br"),s("span",{class:"line-number"},"10"),s("br"),s("span",{class:"line-number"},"11"),s("br")])],-1),v=o('<h2 id="saving-loading-mbe" tabindex="-1">Saving &amp; Loading MBE <a class="header-anchor" href="#saving-loading-mbe" aria-hidden="true">#</a></h2><ol><li><p>To save run:</p><ul><li><code>/execute as @e [type=armor_stand, name=Grumm, c=1] at @s run structure save MBE ~~~ ~~~</code></li></ul></li><li><p>To load run:</p><ul><li><code>/structure load MBE &lt;coordinates&gt;</code></li></ul></li></ol><blockquote><p>Note: structure name <code>MBE</code> can be changed to your preference.</p></blockquote><h2 id="mbe-tool" tabindex="-1">MBE Tool <a class="header-anchor" href="#mbe-tool" aria-hidden="true">#</a></h2><p>To make MBE creations far more conveniently, you may install the add-on pack below.</p><p><em>Compiled by @Zhea Evyline</em></p>',6);function T(D,S,B,G,M,x){const r=t("YouTubeEmbed"),i=t("CodeHeader"),l=t("Spoiler"),c=t("CardLink");return d(),u("div",null,[h,n(r,{id:"kb8rz9ItE_M"}),y,n(i,null,{default:a(()=>[e("mcfunction")]),_:1}),_,n(l,{title:"Full MBE"},{default:a(()=>[E]),_:1}),n(l,{title:"Mini MBE"},{default:a(()=>[g]),_:1}),n(l,{title:"Stair MBE"},{default:a(()=>[k]),_:1}),n(l,{title:"Bottom Slab MBE"},{default:a(()=>[C]),_:1}),n(l,{title:"Top Slab MBE"},{default:a(()=>[f]),_:1}),v,n(c,{imgsrcLight:"assets/images/commands/BClogo.png",title:"Download MBE Add-On",link:"https://google.com"})])}const N=m(b,[["render",T]]);export{F as __pageData,N as default};
