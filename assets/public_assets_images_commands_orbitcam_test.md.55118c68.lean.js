@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as s}from"./404.md.9fb1969b.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"public/assets/images/commands/orbitcam/test.md"}'),a={name:"public/assets/images/commands/orbitcam/test.md"};function c(o,r,n,m,i,p){return s(),e("div")}const l=t(a,[["render",c]]);export{_ as __pageData,l as default};
