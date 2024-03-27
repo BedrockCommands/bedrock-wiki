@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as s}from"./404.md.c6f6e3d0.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"public/assets/images/commands/selectors/test.md"}'),a={name:"public/assets/images/commands/selectors/test.md"};function c(o,r,n,m,i,p){return s(),t("div")}const l=e(a,[["render",c]]);export{_ as __pageData,l as default};
