@@ -2,7 +2,7 @@ import{_ as l}from"./chunks/7.58FQPVLC.js";import{_ as t}from"./chunks/5._6hWkrs
 <span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">execute as @a at @s positioned ~~10000~ if entity @e [type=leash_knot, r=0.1252] run scoreboard players set @s is_moving 0</span></span>
 <span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">execute as @a at @s positioned ~~10000~ unless entity @e [type=leash_knot, r=0.1252] run scoreboard players add @s is_moving 1</span></span>
 <span class="line"></span>
-<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Update point</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Update Point</span></span>
 <span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">execute as @e [type=leash_knot] at @s unless entity @s [y=-80, dy=9974] run kill @s</span></span>
 <span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">execute at @a positioned ~~10000~ run summon leash_knot ~~~</span></span>
 <span class="line"></span>
@@ -22,7 +22,7 @@ import{_ as l}from"./chunks/7.58FQPVLC.js";import{_ as t}from"./chunks/5._6hWkrs
 <span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">scoreboard players set @a is_sprinting 0</span></span>
 <span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">execute as @a at @s positioned ~~10000~ if entity @e [type=leash_knot, rm=0.2806, r=0.9] run scoreboard players set @s is_sprinting 1</span></span>
 <span class="line"></span>
-<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Update point</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Update Point</span></span>
 <span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">execute as @e [type=leash_knot] at @s unless entity @s [y=-80, dy=9974] run kill @s</span></span>
 <span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">execute at @a positioned ~~10000~ run summon leash_knot ~~~</span></span>
 <span class="line"></span>
