@@ -6,7 +6,7 @@ import{_ as r,e as d,t as n,C as t,Q as a,f as e,E as s,D as o,d as c}from"./chu
 <span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">scoreboard players add initialised world 0</span></span>
 <span class="line"></span>
 <span class="line"></span>
-<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">#Your Commands Here (example)</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Your Commands Here (example)</span></span>
 <span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">execute if score initialised world matches 0 run say New world created!</span></span>
 <span class="line"></span>
 <span class="line"></span>
