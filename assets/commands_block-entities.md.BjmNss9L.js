@@ -5,9 +5,9 @@ import{_ as p}from"./chunks/6.C5WWER03.js";import{_ as c,e as m,t as e,C as i,Q 
 <span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">playanimation @e [type=armor_stand, name=Grumm] animation.player.move.arms.zombie null 0 &quot;0&quot; wiki:size.mini_block</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">## Full Block (optional)</span></span>
-<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">### size</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">### Size</span></span>
 <span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">playanimation @e [type=armor_stand, name=Grumm] animation.ghast.scale null 0 &quot;0&quot; wiki:size.full_block</span></span>
-<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">### align</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">### Align</span></span>
 <span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">playanimation @e [type=armor_stand, name=Grumm] animation.fireworks_rocket.move null 0 &quot;0&quot; wiki:align.full_block</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">## Freeze Armor Stand</span></span>
